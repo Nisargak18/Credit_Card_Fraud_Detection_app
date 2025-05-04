@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the model from the current directory (no Windows path)
-model = joblib.load('C:/Users/kavya/OneDrive/Attachments/Desktop/Data Science Internship/fraud_model.pkl')
+model = joblib.load('models/fraud_model.pkl')
 
 st.title("💳 Credit Card Fraud Detection App")
 
